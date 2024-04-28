@@ -130,8 +130,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="opencv_yol4.cpp" />
     <ClCompile Include="ThreadCam.cpp" />
+    <ClCompile Include="yolov4dnn.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThreadCam.h" />
+    <ClInclude Include="yolov4dnn.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

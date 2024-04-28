@@ -291,7 +291,7 @@ int yolo_inference1(cv::Mat& frame, std::vector<int>& indices, std::vector<cv::R
 
 
 
-int main()
+int main2()
 {
     init_yolo();
 
